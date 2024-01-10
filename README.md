@@ -4,4 +4,4 @@
 
 
 ## Usage:
-<embed src="https://github.com/Cracko298/MC3DS-Options-WinEdit/releases/download/v1.0.0/showoff.gif">
+<img src="https://github.com/Cracko298/MC3DS-Options-WinEdit/releases/download/v1.0.0/showoff.gif">
