@@ -6,5 +6,11 @@
 - **Download the Converter [Here](https://github.com/Cracko298/MC3DS-Options-WinEdit/releases/download/v1.0.0/options_converter.exe).**
 - **Want to convert it back to that Notepad Format? Sure I have you covered [Here](https://github.com/Cracko298/MC3DS-Options-WinEdit/releases/download/v1.0.0/options_revert.exe).**
 
+## Building:
+```
+g++ -o options_converter.exe -O3 -s options_converter.cpp
+g++ -o options_revert.exe -O3 -s options_revert.cpp
+```
+
 ## Usage:
 <img src="https://github.com/Cracko298/MC3DS-Options-WinEdit/releases/download/v1.0.0/showoff.gif">
