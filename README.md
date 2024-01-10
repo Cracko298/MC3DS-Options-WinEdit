@@ -1,6 +1,8 @@
 # MC3DS-Options-WinEdit
 - **Enables editing of "options.txt" from MC3DS using the Built-in Windows Notepad Application.**
+- **Basically works with any Text Editor that treats `NULL` bytes as Spacing(s), like Notepad.**
 
+## Download(s)
 
 
 ## Usage:
