@@ -27,3 +27,14 @@ options_convert my_cool_options.txt
 ```
 .\options_convert.exe my_cool_options.txt
 ```
+
+### Release Hashes:
+```
+options_revert.exe    -    SHA256  -    17d0825669c08fd59201464630f55d6f43ba4c518243987a0612f30daa8e013e
+options_revert.exe    -    SHA1    -    7a29bcc836e935e352a369426f18d6b4d2941886
+options_revert.exe    -    MD5     -    9252dfa2db109d5db5877a91fa0ee04a
+
+options_convert.exe   -    SHA256  -    ecc6880332dd1926d4bd1a7a6f7661a49ab79325f5b1bdc103971652d6b8ef1c
+options_convert.exe   -    SHA1    -    407fcc7933eaab23ee5dc7896be0a995341652bb
+options_convert.exe   -    MD5     -    f9495f28d862055144a4dbb1ecc75056
+```
