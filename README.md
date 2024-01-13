@@ -23,7 +23,7 @@ g++ -o options_revert.exe -O3 -s options_revert.cpp
 ```
 options_convert my_cool_options.txt
 ```
-or...
+**For Legacy Consoles:**
 ```
 .\options_convert.exe my_cool_options.txt
 ```
