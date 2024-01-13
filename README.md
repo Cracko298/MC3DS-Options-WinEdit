@@ -15,8 +15,17 @@ g++ -o options_revert.exe -O3 -s options_revert.cpp
 
 ## Usage:
 ![](https://github.com/Cracko298/MC3DS-Options-WinEdit/releases/download/v1.0.0/showoff.gif)
-### Command line
-All scripts take the input file path as the 1st argument and if it wasn't specified, it defaults to `options.txt`. Example:
+### CLI Example:
+- All scripts take the input file path as the 1st argument and if it wasn't specified, it defaults to `options.txt`.
+
+### Example(s):
+**Defualt Command Usage:**
 ```
 options_convert my_cool_options.txt
 ```
+
+**For Compatability with CMD Prompt & Powershell:**
+```
+.\options_convert.exe my_cool_options.txt
+```
+*Change extension to either .py or .exe for expected usage.
