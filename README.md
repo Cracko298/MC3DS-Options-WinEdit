@@ -27,4 +27,3 @@ or...
 ```
 .\options_convert.exe my_cool_options.txt
 ```
-*Change extension to either .py or .exe for expected usage.
