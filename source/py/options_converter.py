@@ -12,5 +12,6 @@ def modify_file(file_path):
         else:
             print("Target bytes not found, no modification needed.")
 
-file_path = "options.txt"
-modify_file(file_path)
+if __name__ == "__main__":
+    file_path = "options.txt"
+    modify_file(file_path)
