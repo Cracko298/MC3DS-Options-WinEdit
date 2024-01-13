@@ -14,4 +14,4 @@ g++ -o options_revert.exe -O3 -s options_revert.cpp
 ```
 
 ## Usage:
-<img src="https://github.com/Cracko298/MC3DS-Options-WinEdit/releases/download/v1.0.0/showoff.gif">
+![](https://github.com/Cracko298/MC3DS-Options-WinEdit/releases/download/v1.0.0/showoff.gif)
