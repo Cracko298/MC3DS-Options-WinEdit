@@ -26,8 +26,11 @@ void modifyFile(const std::string& filePath) {
     }
 }
 
-int main() {
+int main(int argc, char *argv[]) {
     std::string filePath = "options.txt";
+    
+    if(argc == 2) filePath = argv[1];
+
     modifyFile(filePath);
 
     return 0;
