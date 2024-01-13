@@ -19,5 +19,8 @@ if __name__ == "__main__":
 
     if len(sys.argv) == 2:
         file_path = sys.argv[1]
+    if len(sys.argv) > 2:
+        print("Too many arguments.")
+        exit(1)
 
     modify_file(file_path)
