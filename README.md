@@ -23,8 +23,7 @@ g++ -o options_revert.exe -O3 -s options_revert.cpp
 ```
 options_convert my_cool_options.txt
 ```
-
-**For Compatability with CMD Prompt & Powershell:**
+or...
 ```
 .\options_convert.exe my_cool_options.txt
 ```
