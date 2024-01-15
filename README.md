@@ -11,6 +11,7 @@
 ```
 g++ -o options_converter.exe -O3 -s options_converter.cpp
 g++ -o options_revert.exe -O3 -s options_revert.cpp
+.\makerom.exe -f cia -o Options-Converter.cia -elf options_edit.elf -rsf files.rsf -icon icon.smdh -banner banner.bnr -major 1 -minor 3 -micro 9
 ```
 
 ## Usage:
