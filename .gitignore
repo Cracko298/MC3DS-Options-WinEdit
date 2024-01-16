@@ -1,5 +1,7 @@
 .vscode/
 .idea/
 
+build/
+
 *.exe
 *.out
