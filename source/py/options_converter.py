@@ -17,7 +17,7 @@ def modify_file(file_path, output_file_path):
 if __name__ == "__main__":
     file_path = "options.txt"
 
-    if len(sys.argv) == 2:
+    if len(sys.argv) >= 2:
         file_path = sys.argv[1]
 
     output_file_path = file_path
