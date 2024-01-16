@@ -25,4 +25,8 @@ if __name__ == "__main__":
     if len(sys.argv) == 3:
         output_file_path = sys.argv[2]
 
+    if len(sys.argv) > 3:
+        print("Too many arguments.")
+        exit(1)
+
     modify_file(file_path, output_file_path)
