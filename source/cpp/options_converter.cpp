@@ -22,7 +22,7 @@ void modifyFile(const std::string& filePath, const std::string& outputFilePath) 
             std::cout << "Target bytes not found, no modification needed." << std::endl;
         }
     } else {
-        std::cerr << "Error opening file." << std::endl;
+        std::cerr << "Error opening input file." << std::endl;
     }
 }
 
