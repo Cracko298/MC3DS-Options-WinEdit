@@ -36,7 +36,6 @@ void modifyFile(const std::string& filePath, const std::string& outputFilePath) 
 
 int main(int argc, char *argv[]) {
     std::string filePath = "options.txt";
-    std::string outputFilePath = filePath;
 
     // Help text following the Unix standards.
     if (argc == 2 && strcmp(argv[1],"--help") == 0) {
@@ -51,6 +50,9 @@ int main(int argc, char *argv[]) {
     }
 
     if (argc >= 2) filePath = argv[1];
+
+    std::string outputFilePath = filePath;
+
     if (argc == 3) outputFilePath = argv[2];
 
     if (argc > 3){
