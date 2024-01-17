@@ -3,6 +3,9 @@
 #include <vector>
 #include <algorithm>
 #include <cstdint>
+#include <string.h>
+#include <stdio.h>
+
 
 void modifyFile(const std::string& filePath, const std::string& outputFilePath) {
     std::vector<uint8_t> targetBytes = {0xD8, 0x05, 0x20, 0x20, 0x6D, 0x70};
@@ -34,6 +37,17 @@ void modifyFile(const std::string& filePath, const std::string& outputFilePath) 
 int main(int argc, char *argv[]) {
     std::string filePath = "options.txt";
     std::string outputFilePath = filePath;
+
+    // Help text following the Unix standards.
+    if (argc == 2 && strcmp(argv[1],"--help") == 0) {
+        std::cout << "Usage: options_converter [INPUT_PATH] [OUTPUT_PATH]" << std::endl << std::endl;
+
+        std::cout << "Arguments:" << std::endl;
+        std::cout << "  INPUT_PATH    Path to the input file. Default: 'options.txt'" << std::endl;
+        std::cout << "  OUTPUT_PATH   Path to the output file. Input file will be overwritten if this argument wasn't specified." << std::endl;
+        
+        return 0;
+    }
 
     if(argc >= 2) filePath = argv[1];
     if(argc == 3) outputFilePath = argv[2];
