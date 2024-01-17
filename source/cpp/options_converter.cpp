@@ -15,12 +15,14 @@ void modifyFile(const std::string& filePath, const std::string& outputFilePath) 
 
             std::replace(content.begin(), content.end(), static_cast<uint8_t>(0x20), static_cast<uint8_t>(0x00));
             std::ofstream modifiedFile(outputFilePath, std::ios::binary);
+
             if (modifiedFile) {
                 modifiedFile.write(reinterpret_cast<const char*>(content.data()), content.size());
                 std::cout << "Modification successful." << std::endl;
             } else {
                 std::cerr << "Error creating output file. Check write permissions and disk space." << std::endl;
             }
+            
         } else {
             std::cout << "Target bytes not found, no modification needed." << std::endl;
         }
