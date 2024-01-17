@@ -19,13 +19,13 @@ void modifyFile(const std::string& filePath, const std::string& outputFilePath) 
                 modifiedFile.write(reinterpret_cast<const char*>(content.data()), content.size());
                 std::cout << "Modification successful." << std::endl;
             } else {
-                std::cerr << "Error opening output file." << std::endl;
+                std::cerr << "Error opening output file. Check write permissions and disk space." << std::endl;
             }
         } else {
             std::cout << "Target bytes not found, no modification needed." << std::endl;
         }
     } else {
-        std::cerr << "Error opening input file." << std::endl;
+        std::cerr << "Error opening input file. Is the path correct?" << std::endl;
     }
 }
 
