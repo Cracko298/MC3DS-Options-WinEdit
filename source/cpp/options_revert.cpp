@@ -39,7 +39,8 @@ int main(int argc, char *argv[]) {
 
     // Help text following the Unix standards.
     if (argc == 2 && strcmp(argv[1],"--help") == 0) {
-        std::cout << "Usage: options_revert [INPUT_PATH] [OUTPUT_PATH]" << std::endl << std::endl;
+        std::cout << "Usage: options_revert [INPUT_PATH] [OUTPUT_PATH]" << std::endl;
+        std::cout << "Converts 3DS options back to the editable format." << std::endl << std::endl;
 
         std::cout << "Arguments:" << std::endl;
         std::cout << "  INPUT_PATH    Path to the input file. Default: 'options.txt'" << std::endl;
